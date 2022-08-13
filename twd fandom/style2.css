@@ -1,0 +1,110 @@
+
+
+#head{
+    background-image: url("./S1 images/twd\ s3\ header.jpg");
+    
+    max-height: max-content;   
+    background-position: center center;
+    top: 100px;
+    height: 70vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    color: red;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    text-decoration: line-through;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 7px ;
+    text-shadow: 2px 2px 2px black ;
+    position: relative;
+    top: 10px;
+   
+}
+
+
+
+#para1, #para2, #para3, #para4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    background-color: transparent;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+#whole{
+   
+    background-color: #FF6347;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+
+}
+
+#img1, #img2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width: 400px;
+}
+
+#episodeName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 55px;
+}
+
+section li{
+    text-decoration: none;        /*must and should*/
+    list-style-type:square;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    /*background-color: black;*/   /*This should be written in "solo nav tag"*/
+    text-align: center;
+    padding: 20px; /*Padding is applied to give proper spacing which gives good visual*/
+    float: left;
+    
+}
+
+nav{
+    background-color: #FF6347;
+    overflow: hidden;   /*float left in nav a + overflow hidden in nav gives that spacious oadding effect*/
+    border-radius: 15px;
+    
+}
+
+nav a:hover{
+    color: turquoise
+}
+
+nav a :visited{
+    color: crimson;
+}
+
+#button{
+    
+    background-color: teal;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#button:hover{
+    color: red;
+}
+
+@media (orientation: portrait) {
+    body{
+        color: aqua;
+    }
+}

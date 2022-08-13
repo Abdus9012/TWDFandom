@@ -1,0 +1,27 @@
+body{
+    background-color: brown;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#header{
+    background-image: url("./S1 images/index.jpg");
+}
+
+#button{
+        
+    background-color: teal;
+    border: none;
+    color: turquoise;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#button:hover{
+    color: red;
+}
